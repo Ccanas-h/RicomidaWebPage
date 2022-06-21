@@ -1,0 +1,183 @@
+html{
+  scroll-behavior: auto !important;
+}
+
+body {
+  font-family: "Cabin", sans-serif;
+  background: white;
+  color: #373a3c;
+}
+
+#ricomida-titulo{
+  font-family: "Lobster", cursive;
+  font-size: 3rem;
+}
+
+.navbar a{
+  color: #ffffff !important;
+}
+
+header img {
+  width: 31rem;
+}
+
+.header-principal {
+  margin-top: 20px;
+}
+
+.linea-arriba{
+  
+  margin-top: 5rem;
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  visibility: hidden;
+  color: black;
+}
+
+.header-texto h3 {
+  font-size: 1rem;
+}
+
+.header-texto button {
+  color: #373a3c;
+  font-size: 1rem;
+  display: inline-block
+}
+
+
+/*CARRUSEL de aqui en adelante*/
+
+.carrusel img {
+  width: 16rem;
+  margin: 50px 0;
+  padding: 5px;
+}
+
+.carousel-indicators li {
+  background-color: #373A3C !important;
+  background-color: #373A3C31 !important;
+  color: #373A3C !important;
+  border-radius: 50%;
+  width: 1rem !important;
+  height: 1rem !important;
+}
+.carousel-indicators .active {
+  background-color: #373A3C !important;
+}
+
+car
+
+/* Separacion de linea hr */
+
+hr {
+  width: 100%;
+  height: 1px;
+  color: black;
+  background-color: black;
+}
+
+
+.ingrediente h5 {
+  font-weight: 800;
+  margin-top: 0px;
+  padding-top: 0;
+}
+
+.ingrediente-preparacion-titulo {
+  margin-top: 30px;
+}
+
+.ingrediente-preparacion-titulo h4 {
+  border-bottom: 1.5px solid currentColor;
+  display: inline-block;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+.ingrediente li {
+  margin-left: -40px;
+  padding: 0;
+}
+.preparacion li {
+  margin-left: -27px;
+}
+
+
+.recetas-relacionadas h2 {
+  text-align: center;
+  margin: 4vh 0;
+  font-weight: 700;
+}
+
+.card {
+  padding: 0;
+}
+
+.card-deck {
+  margin-bottom: 40px;
+}
+
+
+
+.newsletter {
+  color: white;
+  text-align: center;
+  background: #dc3545;
+  padding: 80px 0 50px 0;
+}
+
+.newsletter button {
+  margin: 30px 0;
+  padding: 5px 50px;
+}
+
+.newsletter h5 {
+  font-size: 16pt;
+}
+
+.newsletter b {
+  font-family: "Lobster", cursive;
+  font-size: 25px;
+}
+
+footer {
+  background: #373a3c;
+  text-align: center;
+  height: 5rem;
+}
+
+
+footer h2 {
+  color: #ffffff;
+  font-family: "Lobster", cursive;
+  font-weight: 300;
+  vertical-align: middle;
+  padding-top: 18px;
+  font-weight: 300;
+  font-size: 35px;
+}
+
+@media only screen and (max-width: 576px) {
+
+  .header-principal {
+    text-align: center;
+  }
+
+  .header-principal h1 {
+    margin-top: 2rem;
+  }
+
+  .carrusel {
+    display: none;
+  }
+
+  .ingrediente-preparacion-titulo {
+    margin-top: 3rem;
+  }
+  
+  .linea-arriba {
+    color: black;
+    visibility: visible;
+  }
+
+}
