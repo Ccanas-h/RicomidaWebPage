@@ -3,6 +3,6 @@
 > Finalmente, la página web tendrá tres interacciones que se activan mediante eventos provocados por el usuario, como lo son los eventos de “click” y “dblclick”, métodos como“toggle” y “on” y selectores de id, etiquetas y clases, permitiendo la ejecución de ventanas
 
 
-[========]
+[========] 
 
 [Maqueta][https://xd.adobe.com/spec/d60d3e21-4554-4e17-4fb1-e61d39f3d2b3-a03c/screen/83adcd19-5b4f-486d-9bea-5f45f5924ed4/specs/] 
